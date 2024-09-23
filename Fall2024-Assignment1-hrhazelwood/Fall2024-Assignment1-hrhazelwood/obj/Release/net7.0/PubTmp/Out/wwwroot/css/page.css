@@ -1,0 +1,54 @@
+﻿body {
+    font-family: sans-serif;
+    color: rgb(0, 75, 0);
+}
+
+html {
+    background-color: rgb(116, 220, 116);
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Actors {
+    display: table;
+    margin: 0 auto;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    list-style-type: "🍍";
+}
+
+#CoverArt {
+    border-radius: 25%;
+}
+
+#Rating {
+    text-decoration: overline underline;
+    font-weight: bold;
+}
+
+#Trailer {
+    border: 15px rgb(79, 189, 67);
+    border-style: ridge;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 75, 0);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(1, 40, 1);
+}
